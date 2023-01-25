@@ -11,12 +11,15 @@ Window {
 
 
     Rectangle {
-        color: "grey"
-        width: 220
+        width: 120
         height: 300
 
-        GridView {
-            id: view
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "#f6f6f6" }
+            GradientStop { position: 1.0; color: "#d7d7d7" }
+        }
+
+        ListView {
             anchors.fill: parent
             anchors.margins: 20
 
@@ -24,19 +27,29 @@ Window {
 
             model: 100
 
-            cellWidth: 45
-            cellHeight: 45
-
             delegate: numberDelegate
+            spacing: 5
+
+            focus: true
         }
 
         Component {
             id: numberDelegate
 
-            GreenBox {
-                width: 40
+            Rectangle {
+                width: ListView.view.width
                 height: 40
-                text: index
+
+                color: ListView.isCurrentItem?"#157efb":"#53d769"
+                border.color: Qt.lighter(color, 1.1)
+
+                Text {
+                    anchors.centerIn: parent
+
+                    font.pixelSize: 10
+
+                    text: index
+                }
             }
         }
     }
