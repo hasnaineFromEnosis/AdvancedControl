@@ -1,6 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls
+import QtQml
 
 Window {
     width: 640
@@ -8,61 +9,64 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    Column {
-        x: 200
-        spacing: 2
 
-        Repeater {
-            model: 10
+    Rectangle {
+        width: 240
+        height: 300
 
-            delegate: Rectangle {
-                color: "blue"
-                width: 100
-                height: 32
-                Label {
-                    text: index
+        ListView {
+            id: view
+            anchors.fill: parent
+            anchors.margins: 20
+
+            clip: true
+
+            model: 100
+
+            delegate: numberDelegate
+            spacing: 5
+
+            highlight: highlightComponent
+            focus: true
+        }
+
+        Component {
+            id: highlightComponent
+
+            Item {
+                width: ListView.view.width
+                height: ListView.view.currentItem.height
+
+                y: ListView.view.currentItem.y
+
+                Behavior on y {
+                    SequentialAnimation {
+                        PropertyAnimation { target: highlightRectangle; property: "opacity"; to: 0; duration: 200 }
+                        NumberAnimation { duration: 1 }
+                        PropertyAnimation { target: highlightRectangle; property: "opacity"; to: 1; duration: 200 }
+                    }
+                }
+
+                GreenBox {
+                    id: highlightRectangle
+                    anchors.fill: parent
                 }
             }
         }
-    }
 
-    Column {
-        spacing: 2
+        Component {
+            id: numberDelegate
 
-        Repeater {
-            model: ListModel {
-                ListElement { name: "Mercury"; surfaceXColor: "gray" }
-                ListElement { name: "Venus"; surfaceXColor: "yellow" }
-                ListElement { name: "Earth"; surfaceXColor: "blue" }
-                ListElement { name: "Mars"; surfaceXColor: "orange" }
-                ListElement { name: "Jupiter"; surfaceXColor: "orange" }
-                ListElement { name: "Saturn"; surfaceXColor: "yellow" }
-                ListElement { name: "Uranus"; surfaceXColor: "lightBlue" }
-                ListElement { name: "Neptune"; surfaceXColor: "lightBlue" }
-            }
+            Item {
+                width: ListView.view.width
+                height: 40
 
-            Rectangle {
-                width: 120
-                height: 32
+                Text {
+                    anchors.centerIn: parent
 
-                radius: 3
-                color: "blue"
+                    font.pixelSize: 10
 
-                Label {
-                    text: name
-                }
-
-                Rectangle {
-                    anchors.left: parent.left
-                    anchors.verticalCenter: parent.verticalCenter
-                    anchors.leftMargin: 4
-
-                    width: 16
-                    height: 16
-
-                    radius: 8
-
-                    color: surfaceXColor
+                    text: index
                 }
             }
         }
