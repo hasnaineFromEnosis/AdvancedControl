@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ec29f80f44d427af2886.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QTAdvanced",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QTAdvanced::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTAdvanced-Debug-6d7902a7b80877b2723d.json",
+					"name" : "QTAdvanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTAdvanced_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTAdvanced_autogen-Debug-5415e9426464b2eef12a.json",
+					"name" : "QTAdvanced_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTAdvanced_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTAdvanced_autogen_timestamp_deps-Debug-8d90731617d5e1f2469e.json",
+					"name" : "QTAdvanced_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTAdvanced_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTAdvanced_qmlimportscan-Debug-4b21adf6525fd1110872.json",
+					"name" : "QTAdvanced_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

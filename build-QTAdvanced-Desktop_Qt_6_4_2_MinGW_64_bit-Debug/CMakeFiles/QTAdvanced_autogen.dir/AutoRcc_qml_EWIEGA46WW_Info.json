@@ -7,7 +7,8 @@
 	"INCLUDE_DIR" : "C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/main.qml"
+		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/main.qml",
+		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/ModelDelegate.qml"
 	],
 	"LOCK_FILE" : "C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/QTAdvanced_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

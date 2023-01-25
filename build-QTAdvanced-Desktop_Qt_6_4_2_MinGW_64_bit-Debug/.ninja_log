@@ -1,45 +1,13 @@
 # ninja log v5
 1	159	6963310154756079	.qt_plugins/Qt6_QmlPlugins_Imports_QTAdvanced.cmake	c5befb39f6bdccc6
 1	159	6963310154756079	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_QTAdvanced.cmake	c5befb39f6bdccc6
-159	330	6963310155616248	QTAdvanced_autogen/timestamp	56b2a584cf146b0c
 159	330	6963310155616248	QTAdvanced_autogen/mocs_compilation.cpp	56b2a584cf146b0c
-159	330	6963310155616248	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/timestamp	56b2a584cf146b0c
+159	330	6963310155616248	QTAdvanced_autogen/timestamp	56b2a584cf146b0c
 159	330	6963310155616248	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/mocs_compilation.cpp	56b2a584cf146b0c
-332	375	6963310156911589	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-332	375	6963310156911589	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
+159	330	6963310155616248	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/timestamp	56b2a584cf146b0c
+4	52	6963322561409248	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
+4	52	6963322561409248	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
 375	424	6963310157418640	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/mocs_compilation.cpp.obj	feaf23f588dbdf99
-378	427	6963310157448315	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
+53	96	6963322561877123	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
 381	1711	6963310170283324	CMakeFiles/QTAdvanced.dir/main.cpp.obj	aafa6949ed86a2f
-1712	1870	6963310171838398	QTAdvanced.exe	9215dc48e3487a30
-26	74	6963310893910512	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-26	74	6963310893910512	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-74	116	6963310894363387	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-116	235	6963310895512648	QTAdvanced.exe	9215dc48e3487a30
-4	46	6963311085478679	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	46	6963311085478679	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-47	87	6963311085919376	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-88	202	6963311087029229	QTAdvanced.exe	9215dc48e3487a30
-4	50	6963311135320441	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	50	6963311135320441	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-50	93	6963311135799668	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-93	207	6963311136898767	QTAdvanced.exe	9215dc48e3487a30
-3	45	6963311370704417	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-3	45	6963311370704417	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-45	88	6963311371165806	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-89	207	6963311372303627	QTAdvanced.exe	9215dc48e3487a30
-4	47	6963311459757546	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	47	6963311459757546	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-47	89	6963311460217012	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-90	214	6963311461421643	QTAdvanced.exe	9215dc48e3487a30
-4	49	6963311788907532	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	49	6963311788907532	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-50	92	6963311789363064	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-92	211	6963311790516894	QTAdvanced.exe	9215dc48e3487a30
-4	51	6963311853020140	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	51	6963311853020140	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-51	92	6963311853473623	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-92	208	6963311854595483	QTAdvanced.exe	9215dc48e3487a30
-4	48	6963311965245324	QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-4	48	6963311965245324	C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp	4f360da24127b7fe
-48	92	6963311965723895	CMakeFiles/QTAdvanced.dir/QTAdvanced_autogen/EWIEGA46WW/qrc_qml.cpp.obj	c3ec018ee1d59d47
-92	213	6963311966891074	QTAdvanced.exe	9215dc48e3487a30
+96	223	6963322563073222	QTAdvanced.exe	9215dc48e3487a30
