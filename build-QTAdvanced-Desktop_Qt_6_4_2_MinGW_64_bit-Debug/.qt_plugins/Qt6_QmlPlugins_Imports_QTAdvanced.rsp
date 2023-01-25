@@ -1,0 +1,9 @@
+-rootPath
+C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced
+-cmake-output
+-output-file
+C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_QTAdvanced.cmake
+-importPath
+C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.4.2/mingw_64/./qml
