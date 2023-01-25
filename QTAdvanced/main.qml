@@ -11,8 +11,34 @@ Window {
     title: qsTr("Hello World")
 
     Rectangle {
-        width: 300
-        height: 290
+        width: 120
+        height: 300
+
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "#f6f6f6" }
+            GradientStop { position: 1.0; color: "#d7d7d7" }
+        }
+
+        ListModel {
+            id: actionModel
+
+            ListElement {
+                name: "Copenhagen"
+                ollo: function(value) { console.log(value + ": You clicked Copenhagen!"); }
+            }
+            ListElement {
+                name: "Helsinki"
+                ollo: function(value) { console.log(value + ": Helsinki here!"); }
+            }
+            ListElement {
+                name: "Oslo"
+                ollo: function(value) { console.log(value + ": Hei Hei fra Oslo!"); }
+            }
+            ListElement {
+                name: "Stockholm"
+                ollo: function(value) { console.log(value + ": Stockholm calling!"); }
+            }
+        }
 
         ListView {
             anchors.fill: parent
@@ -20,59 +46,35 @@ Window {
 
             clip: true
 
-            model: spaceMen
+            model: actionModel
 
-            delegate: spaceManDelegate
+            delegate: actionDelegate
+            spacing: 5
 
-            section.property: "nation"
-            section.delegate: sectionDelegate
+            focus: true
         }
 
         Component {
-            id: spaceManDelegate
+            id: actionDelegate
 
-            Item {
+            Rectangle {
                 width: ListView.view.width
-                height: 20
+                height: 40
+
+                color: "#157efb"
+
                 Text {
-                    anchors.left: parent.left
-                    anchors.verticalCenter: parent.verticalCenter
-                    anchors.leftMargin: 8
-                    font.pixelSize: 12
+                    anchors.centerIn: parent
+                    font.pixelSize: 10
                     text: name
-                    color: '#1f1f1f'
+                }
+
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: ollo(index);
                 }
             }
         }
-
-        Component {
-            id: sectionDelegate
-
-            GreenBox {
-                width: ListView.view.width
-                height: 20
-                str: section
-            }
-        }
-
-
-        ListModel {
-            id: spaceMen
-
-
-            ListElement { name: "Robert Thirsk"; nation: "Canada"; }
-            ListElement { name: "Abdul Ahad Mohmand"; nation: "Afganistan"; }
-            ListElement { name: "Marcos Pontes"; nation: "Brazil"; }
-            ListElement { name: "Alexandar Panayotov Alexandrov"; nation: "Bulgaria"; }
-            ListElement { name: "Georgi Ivanov"; nation: "Bulgaria"; }
-            ListElement { name: "Roberta Bondar"; nation: "Canada"; }
-            ListElement { name: "Marc Garneau"; nation: "Canada"; }
-            ListElement { name: "Chris Hadfield"; nation: "Canada"; }
-            ListElement { name: "Guy Laliberte"; nation: "Canada"; }
-            ListElement { name: "Steven MacLean"; nation: "Canada"; }
-            ListElement { name: "Julie Payette"; nation: "Canada"; }
-            ListElement { name: "Bjarni Tryggvason"; nation: "Canada"; }
-            ListElement { name: "Dafydd Williams"; nation: "Canada"; }
-        }
     }
+
 }
