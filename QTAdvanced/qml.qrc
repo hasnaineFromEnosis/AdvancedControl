@@ -4,5 +4,6 @@
         <file>ModelDelegate.qml</file>
         <file>GreenBox.qml</file>
         <file>ListViewHighligh.qml</file>
+        <file>GridViewCustom.qml</file>
     </qresource>
 </RCC>
