@@ -8,5 +8,7 @@
         <file>CustomListView.qml</file>
         <file>GridViewAddRemove.qml</file>
         <file>DropDownList.qml</file>
+        <file>BlueBox.qml</file>
+        <file>CustomPathView.qml</file>
     </qresource>
 </RCC>

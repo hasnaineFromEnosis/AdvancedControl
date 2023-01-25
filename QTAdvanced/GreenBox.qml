@@ -4,9 +4,9 @@ import QtQuick.Controls
 Rectangle {
     border.color: "black"
     color: "green"
-    property string text: "text"
+    property string str: "text"
     Label {
-        horizontalAlignment: parent.horizontalCenter
-        text: text
+        anchors.centerIn: parent
+        text: str
     }
 }
