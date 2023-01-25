@@ -7,6 +7,7 @@
 	"INCLUDE_DIR" : "C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/build-QTAdvanced-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/QTAdvanced_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/XML.qml",
 		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/CustomListView.qml",
 		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/GridViewCustom.qml",
 		"C:/Users/hasnaine/Documents/QT Practice/AdvancedControl/QTAdvanced/DropDownList.qml",

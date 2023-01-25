@@ -10,5 +10,6 @@
         <file>DropDownList.qml</file>
         <file>BlueBox.qml</file>
         <file>CustomPathView.qml</file>
+        <file>XML.qml</file>
     </qresource>
 </RCC>
