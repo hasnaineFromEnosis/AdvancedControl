@@ -11,5 +11,6 @@
         <file>BlueBox.qml</file>
         <file>CustomPathView.qml</file>
         <file>XML.qml</file>
+        <file>SectionInsideList.qml</file>
     </qresource>
 </RCC>
