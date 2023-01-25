@@ -6,5 +6,6 @@
         <file>ListViewHighligh.qml</file>
         <file>GridViewCustom.qml</file>
         <file>CustomListView.qml</file>
+        <file>GridViewAddRemove.qml</file>
     </qresource>
 </RCC>
