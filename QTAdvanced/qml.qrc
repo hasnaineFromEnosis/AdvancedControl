@@ -7,5 +7,6 @@
         <file>GridViewCustom.qml</file>
         <file>CustomListView.qml</file>
         <file>GridViewAddRemove.qml</file>
+        <file>DropDownList.qml</file>
     </qresource>
 </RCC>
